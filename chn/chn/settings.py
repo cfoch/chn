@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 AUTH_USER_MODEL = 'usuarios.Usuario'
 
 INSTALLED_APPS = [
+    'cursos.apps.CursosConfig',
     'usuarios.apps.UsuariosConfig',
     'django.contrib.admin',
     'django.contrib.auth',
