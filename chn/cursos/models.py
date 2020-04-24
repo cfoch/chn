@@ -27,3 +27,6 @@ class Inscripcion(models.Model):
 
     usuario = models.ForeignKey(Usuario, on_delete=models.CASCADE)
     curso = models.ForeignKey(Curso, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return 'Inscripcion {}'.format(self.id)
