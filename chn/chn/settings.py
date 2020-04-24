@@ -35,6 +35,7 @@ AUTH_USER_MODEL = 'usuarios.Usuario'
 INSTALLED_APPS = [
     'cursos.apps.CursosConfig',
     'usuarios.apps.UsuariosConfig',
+    'videos.apps.VideosConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
